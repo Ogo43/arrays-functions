@@ -39,7 +39,7 @@ console.log(fruit.push("orange")); //The value of fruit is 4
 
 // A4
 
-function max_Number (numbers) {
+function max (numbers) {
     let max = numbers[0];
     for (let i = 1; i < numbers.length; i++) {
         if (numbers[i] > max) {
@@ -49,8 +49,8 @@ function max_Number (numbers) {
     return max;
 }
 
-const rangeOfNumber = [4,5,10,-2];
-console.log(max_Number(rangeOfNumber)); // the max is 10
+const rangeOfNumber = max([4,5,10,-2]);
+console.log(rangeOfNumber); // the max is 10
 
 // A5
 
@@ -62,5 +62,5 @@ const valTimesIndex = (numbers) => {
     return multi;
 }
 
-const indexMultiples = [1, 2, 3];
-console.log(valTimesIndex(indexMultiples));  //[ 0, 2, 6 ]
+const indexMultiples = valTimesIndex([1, 2, 3]);
+console.log(indexMultiples);  //[ 0, 2, 6 ]
