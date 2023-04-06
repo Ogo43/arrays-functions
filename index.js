@@ -35,7 +35,7 @@ function changeFruit (fruit) {
     return fruit;
 }
 
-console.log(fruit.push("orange")); //The value of fruit is 4
+changeFruit(fruit); //The value of fruit is 4
 
 // A4
 
